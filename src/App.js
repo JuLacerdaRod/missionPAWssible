@@ -10,9 +10,9 @@ import CreatedProjectPage from "./pages/CreateProjectPage";
 function App() {
   return (
     <Router>
-      <div>
+      {/* <div>
         <h1>Mission PAWssible</h1>
-      </div>
+      </div> */}
       <div>
         <Nav />
 

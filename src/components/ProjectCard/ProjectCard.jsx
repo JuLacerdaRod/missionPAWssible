@@ -5,11 +5,13 @@ import "./ProjectCard.css";
 function ProjectCard(props) {
   const { projectData } = props;
   return (
-    <div className="project-card">
-      <Link to={`/project/${projectData.id}`}>
-        <img alt="projectData" src={projectData.image} />
-        <h3 className="project-card-title">{projectData.title}</h3>
-      </Link>
+    <div className="card-wrapper">
+      <div className="project-card">
+        <Link to={`/project/${projectData.id}`}>
+          <img alt="projectData" src={projectData.image} />
+          <h3 className="project-card-title">{projectData.title}</h3>
+        </Link>
+      </div>
     </div>
   );
 }
