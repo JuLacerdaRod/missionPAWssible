@@ -1,0 +1,9 @@
+.nav-link,
+nav {
+  padding: 10px;
+  background-color: #fcac5d;
+}
+
+a:hover {
+  background-color: rgb(236, 145, 60);
+}
