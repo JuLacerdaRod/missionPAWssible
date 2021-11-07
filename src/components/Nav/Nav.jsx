@@ -36,7 +36,7 @@ const Nav = () => {
             Login
           </Link>
           <Link className="nav-link" to="/ProjectPage">
-            Create New Project
+            Create a new project
           </Link>
         </div>
       )}
