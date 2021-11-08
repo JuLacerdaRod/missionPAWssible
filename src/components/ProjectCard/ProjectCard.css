@@ -6,11 +6,6 @@ img {
   padding-top: 1%;
 }
 
-/* .card-wrapper {
-  display: flexbox;
-  flex-direction: column;
-} */
-
 .project-card {
   width: 100%;
   border-radius: 0.8em;
